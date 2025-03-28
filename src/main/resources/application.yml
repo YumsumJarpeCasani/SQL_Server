@@ -12,6 +12,4 @@ spring:
     hibernate:
       ddl-auto: update  # Puede ser 'create', 'update', 'validate' o 'none'
     show-sql: true  # Para ver las consultas SQL en consola
-  sql:
-    init:
-      mode: always  # Ejecuta schema.sql y data.sql en cada inicio
+  
